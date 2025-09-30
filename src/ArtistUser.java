@@ -13,14 +13,14 @@ public class ArtistUser {
         this.famousPainting = builder.famousPainting;
     }
 
-    // Геттеры
+    
     public String getFirstName() { return firstName; }
     public String getLastName() { return lastName; }
     public int getAge() { return age; }
     public String getCountry() { return country; }
     public String getFamousPainting() { return famousPainting; }
 
-    // Builder
+    
     public static class Builder {
         private final String firstName;
         private final String lastName;
